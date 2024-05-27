@@ -23,4 +23,4 @@ with ThreadPoolExecutor(max_workers=num_requests) as executor:
     for future in futures:
         future.result()
 
-print("Load test completed.")
+
